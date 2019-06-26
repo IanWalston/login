@@ -1,13 +1,13 @@
 Login
 =====
 
-##index.html
+## index.html
 
 The index contains a form with labled inputs for username and password and a submit button.
 The form contains an action and method attribute as a fall back in case javascript is not enabled in the browser.
 Otherwise, this default behavior is prevented by the login.js.
 
-##login.js
+## login.js
 
 I have added some functionality to this form that would not make sense for a real login form. I did this as a way to demonstrate my javascript skills. 
 
