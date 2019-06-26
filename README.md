@@ -1,6 +1,8 @@
 Login
 =====
 
+A deployed version of this login can be found at https://ianwalston.github.io/login/
+
 ## index.html
 
 The index contains a form with labeled inputs for username and password and a submit button.
