@@ -3,8 +3,8 @@ Login
 
 ## index.html
 
-The index contains a form with labled inputs for username and password and a submit button.
-The form contains an action and method attribute as a fall back in case javascript is not enabled in the browser.
+The index contains a form with labeled inputs for username and password and a submit button.
+The form contains an action and method attributes as a fall back in case javascript is not enabled in the browser.
 Otherwise, this default behavior is prevented by the login.js.
 
 ## login.js
@@ -18,7 +18,7 @@ If correct
 - if it's the user's first successful submission, an alert appears
 - the form will rotate 1 and 1/7th turns, and lose 20% opacity.
 - if the user's screen is not small, the body top and right padding will increase by 128px
-- Upon 7 correct submissions, the form will return to it's original state
+- Upon 7 correct submissions, the form will return to its original state
 - submit.mp3 is played
 
 If incorrect
@@ -33,7 +33,7 @@ If incorrect
 - Active and focus styles indicate the user's focus
 - The transition property is used to animate style changes from login.js
 - All clickable elements are at least 64px by 64px
-- If the user's screen is smaller than 512px, the layout changes to accomidate this
+- If the user's screen is smaller than 512px, the layout changes to accommodate this
 - Gradients are used to create the illusion of a light source beyond the upper right corner of the document
 
 ## submit.mp3
