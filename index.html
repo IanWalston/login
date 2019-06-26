@@ -5,24 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Login to this website using your username and password">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
 <body>
-    <form id='login' name='login' action="get">
+    <form id='login' action="/action_page.php" method="get">
         <h1>Login</h1>
         <label>User name: <input id='username' type="text" required> </label>
         <label>Password: <input id="password" type="password" required></label>
         <button>Log In</button>
     </form>
-    <div class="hide" id='forgot_password'>
-        <a href="https://www.google.com/search?q=how+to+reset+my+password">
-            Help me, I forgot my password</a>
-    </div>
-
-    <script src="./app.js">
-    </script>
+    <script src="./login.js"></script>
 </body>
 
 </html>
