@@ -100,7 +100,7 @@ button:active {
 
 div{
     text-align: center;
-    padding: 12px 8px;
+    padding: 16px 32px;
     max-width:496px;
     margin: 16px auto;
     border-radius: 16px;
@@ -127,7 +127,6 @@ a{
         margin: 0;
         font-size: 24px;
         border-radius: 0;
-        height: 110vh;
         padding: 1px 12px;
     }
 
