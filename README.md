@@ -29,6 +29,7 @@ If incorrect
 
 ## style.css
 
+This css file has been autoprefixed for browser support and performs the following functions:
 - Hover styles are highlight the clickable areas of the form
 - Active and focus styles indicate the user's focus
 - The transition property is used to animate style changes from login.js

@@ -8,6 +8,8 @@ body {
     background: linear-gradient(45deg, #111, #999);
     display: fixed;
     height: 100vh;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s
 }
 
@@ -23,6 +25,8 @@ body {
             box-shadow: -24px 24px 24px;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s; 
     padding: 12px 64px;
 }
@@ -101,6 +105,12 @@ div{
     margin: 16px auto;
     border-radius: 16px;
     background: #ccc;
+}
+
+a{
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s
 }
 
 /* state */
