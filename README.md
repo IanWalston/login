@@ -24,4 +24,5 @@ If incorrect
 - if it's the user's first incorrect submission, an element is added to the document with a "forgot password" link
 - on the first 8 submissions, the text size of the "forgot password" link increases by 3px
 - on the first two incorrect submissions, an alert shows
+- if the user makes more than two incorrect submissions, a confirm appears that can take the user to the "forgot password" url
 
